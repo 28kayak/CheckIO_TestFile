@@ -1,5 +1,12 @@
 def checkio(*args):
-    return 0
+	print args
+	deff = 0
+	if len(args) != 0:
+		mini = min(args);
+		maxi = max(args);
+		deff = maxi - mini
+		print deff
+	return deff
 
 #These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':
