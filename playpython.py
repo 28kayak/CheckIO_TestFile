@@ -9,12 +9,10 @@ def checkio(array):
     while i < length:
         if length != 0:
             sum = sum + array[i]
-            print sum
             i+= 2
             result = sum * array[length-1]
         elif i == 0:
             result = 0
-    print "result = " + str(result)
     return result 
         
         
